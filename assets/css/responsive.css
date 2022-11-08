@@ -635,7 +635,8 @@
   }
 
   .banner-area.auto-height .content {
-    padding: 60px 0;
+    padding: 0px;
+    /* padding: 60px 0; */
   }
 
   .banner-area .thumb {

@@ -1,62 +1,3 @@
-/* ----------------------------------
-
-Template Name: Tanda - IT Solutions Template
-Author: validtheme
-Description:
-Version: 1.6
-
-Main Font    : Inter
-Main Color   : #086AD8
-
--------------------------------------
-
-Table of contents
-        
-    01. Template default css
-    02. Navbar
-        - Navbar Default
-        - Navbar Sticky
-        - Navbar Transparent
-        - Navbar With Topbar
-    03. Banner
-        - Default
-        - Carousel
-        - Banner with form
-    04. About Area
-        - Simple
-        - With FAQ
-    05. Why Choose Us
-    06. Work Process
-    07. Works About
-    08. Services
-        - Carousel Version
-        - Grid Version
-        - Tab Version
-    09. Quick Contact Area
-    10. Case Studies
-    11. Fun Factor
-    12. Team
-    13. FAQ
-    14. Features Area
-    15. Our Mission/Our Vission
-    16. Testimonials
-    17. Clients / Brand
-    18. Blog
-        - Standard
-        - Left Sidebar
-        - Right Sidebar
-        - Single
-    19. Concat Area
-    20. Subscribe Form
-    21. Error 404
-    22. Footer
-        - LIght Version
-        - Dark Version
-    23. PHP Contact Form
-    24. Others
-
-*/
-
 
 /*
 ** General Styles for HTML tags
@@ -1531,7 +1472,8 @@ body,
 }
 
 .banner-area.auto-height .content {
-  padding: 150px 0;
+  padding: 0px;
+  /* padding: 150px 0; */
 }
 
 .banner-area.auto-height.circle-shape .content {
@@ -2758,7 +2700,7 @@ body,
      # About 
 =================================================================== */
 
-.about-area.inc-shape::after {
+/* .about-area.inc-shape::after {
   transform: translateX(10px);
   position: absolute;
   left: -100px;
@@ -2766,11 +2708,11 @@ body,
   content: "";
   height: 100%;
   width: 40%;
-  background: url(assets/img/shape/1.png);
+  background: url(assets/images/excelencia-no-cuidado-com-paciente.png);
   background-size: contain;
   background-repeat: no-repeat;
   z-index: -1;
-}
+} */
 
 .about-area .thumb {
   position: relative;
@@ -5987,17 +5929,18 @@ body,
 
 .accordion .card-header h4:after {
   font-family: "Font Awesome 5 Pro";
-  content: "\f107";
+  content: "\f0aa";
   position: absolute;
   right: 0;
   top: 0;
   font-weight: 600;
+  color: #F94973;
 }
 
 .accordion .card-header h4.collapsed:after {
-  content: "\f105";
+  content: "\f358";
   font-weight: 600;
-  color: #999999;
+  color: #666666;
 }
 
 .faq-area .faq-content .card {
@@ -6005,8 +5948,10 @@ body,
   margin-bottom: 31px;
   overflow: inherit;
   background: transparent;
-  border-radius: 5px;
+  border-radius: 0px;
   padding: 0;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 32px;
 }
 
 .faq-area .faq-content {
@@ -6025,8 +5970,6 @@ body,
 
 .faq-area .faq-content .card .card-header h4 {
   margin: 0;
-  font-size: 18px;
-  font-weight: 600;
   padding: 0;
   padding-right: 50px;
   cursor: pointer;
@@ -6034,13 +5977,18 @@ body,
   z-index: 1;
   display: flex;
   align-items: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #333333;
+
 }
 
 .faq-area .faq-content .card .card-body {
   padding-left: 30px;
   padding: 0;
   padding-top: 15px;
-  border-top: 1px solid #e7e7e7;
+  /* border-top: 1px solid #e7e7e7; */
   margin-top: 20px;
 }
 
@@ -6073,6 +6021,10 @@ body,
   z-index: -1;
   border-radius: 50%;
   opacity: 0.3;
+}
+
+.card-body p > span {
+  color: #F94973;
 }
 
 /* Appoinment */

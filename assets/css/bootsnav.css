@@ -590,7 +590,6 @@ nav.navbar.bootsnav.bg-theme .logo.responsive {
 nav.navbar.bootsnav ul.nav > li > a {
   color: #333333;
   background-color: transparent !important;
-  text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
 }
@@ -1553,10 +1552,11 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li > a {
-    font-size: 13px;
-    letter-spacing: 0.06em;
-    padding: 40px 15px;
-    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 40px 20px;
+    color: #333333;
   }
 
   nav.navbar.bootsnav ul.nav > li > a.active {
@@ -1635,7 +1635,9 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li.active > a {
-    color: #086AD8;
+    text-decoration-line: underline;
+    color: #F94973;
+    font-weight: 900;
   }
 
   nav.navbar.bootsnav.color-yellow ul.nav > li.active > a {
@@ -1662,7 +1664,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li > a:hover {
-    color: #086AD8;
+    color: #F94973;
   }
 
   .eastern-blue nav.navbar.bootsnav ul.nav > li > a:hover {
