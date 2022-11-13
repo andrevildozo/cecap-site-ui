@@ -352,24 +352,24 @@
             # Clients Carousel
          ===============================================*/
         $('.clients-carousel').owlCarousel({
-            loop: false,
-            margin: 80,
-            nav: false,
+            loop: true,
+            margin: 36,
+            nav: true,
             navText: [
-                "<i class='fa fa-angle-left'></i>",
-                "<i class='fa fa-angle-right'></i>"
+                '<img src="assets/images/icons/arrow-left.svg" />',
+                '<img src="assets/images/icons/arrow-right.svg" />'
             ],
             dots: false,
             autoplay: true,
             responsive: {
                 0: {
-                    items: 2
+                    items: 1
                 },
                 600: {
                     items: 3
                 },
                 1000: {
-                    items: 5
+                    items: 3
                 }
             }
         });
