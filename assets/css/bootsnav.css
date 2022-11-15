@@ -1637,7 +1637,7 @@ nav.navbar.bootsnav {
 
   nav.navbar.bootsnav ul.nav > li.active > a {
     text-decoration-line: underline;
-    color: #F94973;
+    color: #F94973 !important;
     font-weight: 900;
   }
 

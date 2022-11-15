@@ -12,7 +12,7 @@
   .title-2 {
     font-size: 48px;
     line-height: 120%;
-    margin-bottom: 56px;
+    margin-bottom: 16px;
   }
   .title-esp {
     font-size: 48px;
@@ -91,6 +91,15 @@
   }
   .esp-btn {
     margin-bottom: 32px;
+  }
+  .img-team-member {
+    padding: 0px 30px;
+  }
+  .box-space-team{
+    margin-bottom: 56px;
+  }
+  .est-line {
+    margin-bottom: 0px !important;
   }
 }
 
@@ -275,6 +284,9 @@
   }
   .esp-content-right {
     text-align: right;
+  }
+  .est-line p {
+    margin-bottom: 0px !important;
   }
 }
 
