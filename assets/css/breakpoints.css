@@ -373,7 +373,7 @@
     margin-top: -40px;
     margin-bottom: 0px;
   }
-  .box-2 h2, p {
+  .box-2 > h2 > p {
     text-align: right;
   }
   .box-3 {

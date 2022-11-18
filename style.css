@@ -8446,3 +8446,20 @@ footer .icon-size {
   background: #1F7AD3;
   padding: 115px 0px;
 }
+
+.cta-voluntario h2 {
+  color: #ffffff !important;
+  text-align: center !important;
+  margin-top: 0px;
+}
+
+.cta-voluntario p {
+  color: #ffffff !important;
+  text-align: center !important;
+  margin-top: 0px;
+}
+
+.cta-voluntario a {
+  margin-top: 24px;
+  margin-right: 0px;
+}
