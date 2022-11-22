@@ -8447,7 +8447,18 @@ footer .icon-size {
   padding: 115px 0px;
 }
 
+.cta-voluntario-2 {
+  background: #F94973;
+  padding: 76px 0px;
+}
+
 .cta-voluntario h2 {
+  color: #ffffff !important;
+  text-align: center !important;
+  margin-top: 0px;
+}
+
+.cta-voluntario-2 h2 {
   color: #ffffff !important;
   text-align: center !important;
   margin-top: 0px;
@@ -8462,4 +8473,36 @@ footer .icon-size {
 .cta-voluntario a {
   margin-top: 24px;
   margin-right: 0px;
+}
+
+.materiais-informativos {
+  margin-bottom: 96px;
+}
+
+.box-cartilha-1 {
+  background: #FEEDF1;
+  border-radius: 32px;
+  padding: 40px 60px;
+  text-align: center;
+}
+
+.box-cartilha-1 p {
+  margin-bottom: 40px;
+}
+
+.box-cartilha-2 p {
+  height: 72px;
+  margin-bottom: 40px;
+}
+
+.box-cartilha-2 {
+  background: #E9F2FB;
+  border-radius: 32px;
+  padding: 40px 60px;
+  text-align: center;
+}
+
+.owl-carousel .owl-item {
+  width: 1110px !important;
+  height: 512px;  
 }

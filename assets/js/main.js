@@ -244,14 +244,14 @@
          ===============================================*/
         $('.case-carousel').owlCarousel({
             loop: false,
-            margin: 30,
+            margin: 16,
             nav: true,
             navText: [
-                "<i class='fa fa-angle-left'></i>",
-                "<i class='fa fa-angle-right'></i>"
+                '<img src="assets/images/icons/arrow-left.svg" />',
+                '<img src="assets/images/icons/arrow-right.svg" />'
             ],
             dots: false,
-            autoplay: true,
+            autoplay: false,
             responsive: {
                 0: {
                     items: 1
