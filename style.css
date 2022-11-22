@@ -8502,6 +8502,13 @@ footer .icon-size {
   text-align: center;
 }
 
+.title-3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #F94973;
+}
+
 /* .owl-carousel .owl-item {
   width: 1110px !important;
   height: 512px;  
