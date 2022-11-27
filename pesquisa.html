@@ -104,7 +104,9 @@
 					<h2 class="title-esp">Qual o benefício para o voluntário? </h2>
           <p>As pessoas sempre ficarão doentes e, consequentemente, precisarão receber novos tratamentos, com maior efetividade e segurança, para uma maior e melhor qualidade de vida.</p>
           <div>
-            <a class="btn circle btn-theme effect btn-md esp-btn wow fadeInUp" href="#">Saiba mais</a>
+            <button type="button" class="btn circle btn-theme effect btn-md esp-btn wow fadeInUp" data-toggle="modal" data-target="#exampleModal">
+							Saiba mais
+						</button>
           </div>
         </div>
         <div class="col-lg-1"></div>
@@ -405,6 +407,37 @@
 			</div>
 		</div>
 	</footer>
+
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<img src="assets/images/icons/close.svg">
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="assets/images/qual-beneficio-da-pesquisa.svg">
+					<h2 class="title-esp">Qual o benefício para o voluntário? </h2>
+					<p>Para tratar as novas doenças ou aprimorar medicamentos visando maior efetividade e segurança, e melhor qualidade de vida.<span>Os voluntários participantes da pesquisa clínica têm direitos e deveres:</span></p>
+					<p>
+						<span>Direitos:</span><br>
+						Ser devidamente orientado e esclarecido quanto aos riscos e benefícios da pesquisa, pelo médico responsável
+						Decidir por si, se deseja ou não participar da pesquisa.
+						Ter acesso a tratamento inovador e sem custos.
+						Poderá sair do estudo a qualquer momento que desejar.
+						Seus dados são confidenciais e anônimos.
+					</p>
+					<p>
+						<span>Deveres:</span><br>
+						Cuidar e usar o medicamento do estudo de forma correta como foi orientado.
+						Comparecer a todas as consultas marcadas para pesquisa.
+						Notificar ao centro de pesquisa, toda intercorrência com a sua saúde.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 	
 	<!-- JS -->
 	<script src="assets/js/jquery-1.12.4.min.js"></script>

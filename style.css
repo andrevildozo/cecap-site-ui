@@ -8555,6 +8555,27 @@ footer .icon-size {
   color: #F94973;
 }
 
+.modal-content {
+  background: #FFFFFF;
+  border-radius: 40px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.close {
+  opacity: 1;
+}
+
+.modal-dialog {
+  max-width: 753px;
+}
+
+.modal-body {
+  padding-left: 90px;
+  padding-right: 90px;
+}
 /* .btn-clinica {
   width: 100%;
   max-width: 144px;
