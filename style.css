@@ -684,6 +684,19 @@ input {
   box-shadow: 0px 15px 25px rgba(241, 130, 67, 0.25);
 }
 
+.btn-theme-5 {
+  color: #ffffff !important;
+  background: linear-gradient(91.05deg, #41BC55 17.31%, #58DB6D 104.16%);
+box-shadow: 0px 15px 25px rgba(65, 188, 85, 0.25);
+}
+
+.btn-clinica {
+  color: #ffffff !important;
+  background: #F94973 !important;
+  padding: 15px 40px !important; 
+  margin-top: 24px !important;
+}
+
 .btn-theme.border {
   background-color: transparent;
   color: #0e2b3d !important;
@@ -752,6 +765,39 @@ input {
   background: #4EA0F0;
   box-shadow: 0px 15px 25px rgba(31, 122, 211, 0.25);
   color: #ffffff !important;
+}
+
+.btn-clinica.effect:hover, .btn-clinica.effect:focus {
+  background: #F94973 !important;
+  box-shadow: 0px 15px 25px rgba(230, 51, 94, 0.25) !important;
+  border-radius: 32px;
+  color: #ffffff;
+}
+
+.btn-clinica.effect:active {
+  background: #4EA0F0 !important;
+  box-shadow: 0px 15px 25px rgba(31, 122, 211, 0.25) !important;
+  border-radius: 32px;
+}
+
+/* .btn-theme.border:hover {
+  background-color: #086AD8;
+  color: #ffffff !important;
+  border: 2px solid #086AD8;
+} */
+
+.btn-theme-5.effect:hover, 
+ .btn-theme-5.effect:focus {
+  background: #41BC55;
+  box-shadow: 0px 15px 25px rgba(65, 188, 85, 0.25);
+  border-radius: 32px;
+  color: #ffffff;
+}
+
+.btn-theme-5.effect:active {
+  background: #4EA0F0;
+  box-shadow: 0px 15px 25px rgba(31, 122, 211, 0.25);
+  border-radius: 32px;
 }
 
 .btn.btn-sm-lm {
@@ -8508,6 +8554,22 @@ footer .icon-size {
   line-height: 120%;
   color: #F94973;
 }
+
+/* .btn-clinica {
+  width: 100%;
+  max-width: 144px;
+  background: #F94973;
+  border-radius: 32px;
+  padding: 15px 40px; 
+  margin-top: 24px;
+}
+
+.btn-clinica a {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+} */
 
 /* .owl-carousel .owl-item {
   width: 1110px !important;

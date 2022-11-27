@@ -34,6 +34,13 @@
     padding: 32px;
     margin-top: 16px;
   }
+  .cta-content-consulta {
+    margin-top: 16px;
+    padding: 32px;
+  }
+  .MB-24 {
+    margin-bottom: 24px;
+  }
   .MB-40 {
     margin-bottom: 40px;
   }
@@ -150,6 +157,11 @@
   .content-box {
     padding-top: 96px;
     padding-bottom: 96px;
+  }
+  .cta-content-consulta {
+    padding: 32px 0px;
+    margin-top: 16px;
+    padding-bottom: 0px;
   }
   .MB-40 {
     margin-bottom: 40px;
@@ -274,6 +286,8 @@
     line-height: 120%;
     color: #333333;
     margin-bottom: 16px;
+    width: 100%;
+    max-width: 380px;
   }
   .MB-16 {
     margin-bottom: 16px;

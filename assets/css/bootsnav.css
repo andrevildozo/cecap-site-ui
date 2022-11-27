@@ -590,7 +590,7 @@ nav.navbar.bootsnav.bg-theme .logo.responsive {
 
 nav.navbar.bootsnav ul.nav > li > a {
   color: #333333;
-  background-color: transparent !important;
+  background-color: transparent;
   font-weight: 600;
   font-size: 14px;
 }
