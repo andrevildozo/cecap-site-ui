@@ -137,6 +137,9 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+  .footer-content-center {
+    text-align: center;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
