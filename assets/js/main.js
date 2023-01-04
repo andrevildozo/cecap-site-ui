@@ -360,7 +360,7 @@
                 '<img src="assets/images/icons/arrow-right.svg" />'
             ],
             dots: false,
-            autoplay: true,
+            autoplay: false,
             responsive: {
                 0: {
                     items: 1
@@ -370,6 +370,32 @@
                 },
                 1000: {
                     items: 3
+                }
+            }
+        });
+
+        /* ==================================================
+            # Especialidades Carousel
+         ===============================================*/
+         $('.especialidades-carousel').owlCarousel({
+            loop: true,
+            margin: 16,
+            nav: true,
+            navText: [
+                '<img src="assets/images/icons/arrow-left.svg" />',
+                '<img src="assets/images/icons/arrow-right.svg" />'
+            ],
+            dots: false,
+            autoplay: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 5
                 }
             }
         });

@@ -3929,6 +3929,11 @@ body,
   margin: auto;
 }
 
+.especialidades-area .especialidades-carousel img {
+  width: auto;
+  margin: auto;
+}
+
 /* ============================================================== 
      # Video Area
 =================================================================== */
@@ -8628,10 +8633,49 @@ footer .icon-size {
 .content-page {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: auto;
   justify-content: center;
   height: 100%;
+  max-width: 328px;
 }
+
+.content-page h2 {
+  color: #ffffff;
+}
+
+.content-page p {
+  color: #ffffff;
+}
+
+.content-page .mt-24 {
+  margin-top: 24px;
+}
+
+.box-especilidade {
+  background: #FFFFFF;
+  box-shadow: 20px 10px 26px rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 0px;
+  margin: 24px 0px;
+  width: 100%;
+  max-width: 264px;
+}
+
+.box-especilidade img {
+  margin: 0px;
+}
+
+.box-especilidade h4 {
+  color: #F94973;
+  margin: 8px 0px;
+}
+
 /* .btn-clinica {
   width: 100%;
   max-width: 144px;
